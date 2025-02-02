@@ -10,8 +10,7 @@ app.use(express.json());
 require('dotenv').config();
 
 
-// coffee-master-2
-// r0zHrvhTi8s8YlC0
+
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.w6mhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
